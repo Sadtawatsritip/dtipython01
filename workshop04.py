@@ -1,0 +1,5 @@
+print('DYI',999,'Bangna',10+20,True,'Hi',158.45558)
+print('DTI'+ str(999)+ 'Bangn' + str(10+20) + str(True) + str(158.455))
+print('DTI ' + str(999) + ' Bangn ' + str(10+20) + ' ' + str(True) + ' Hi ' +str(158.45))
+print('DTI {} Bangn {} {} Hi {}'.format(999,10+20,True,158.45))
+print(f'DTI {999} Bangn {10+20} {True} Hi {158.45}')
