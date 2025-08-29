@@ -1,0 +1,12 @@
+print('--------------------------')
+print('  rogram bmi calculator  ')
+print('--------------------------')
+name = input("ป้อนชื่อของคุณ: ")
+weight = float(input("ป้อนน้ำหนัก (กิโลกรัม): "))
+height_cm = float(input("ป้อนส่วนสูง (เซนติเมตร): "))
+height_m = height_cm / 100
+bmi = weight / (height_m ** 2)
+print('--------------------------')
+print(f"ชื่อ: {name}")
+print(f"ค่า bmi ของคุณคือ: {bmi:.2f}")
+print('--------------------------')
